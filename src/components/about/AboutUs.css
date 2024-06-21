@@ -1,0 +1,27 @@
+.about-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem!important;
+    background-color: #eaeae4; 
+    padding: 120px 30px; 
+    border-radius: 8px; 
+
+}
+
+.about-button{
+    font-size: 20px;
+    background-color: white;
+    transition: 0.5s ease;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: #212429;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.about-button:hover{
+    background-color: #212429;
+    color: white;
+}

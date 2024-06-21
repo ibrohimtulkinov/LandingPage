@@ -1,0 +1,27 @@
+.workcard-title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.workcard-description{
+    font-size: 13px;
+    color: white;
+}
+
+.workcard-button{
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #70c217;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+    
+.workcard-button:hover {
+   background-color: #58a604;
+}
+
+

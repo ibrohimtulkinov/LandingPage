@@ -1,0 +1,98 @@
+.main-page{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 50px;
+}
+
+@media (min-width:100px) and (max-width:1130px){
+  .main-page{
+    display: block;
+}
+  .dot77{
+  margin-top: 5rem!important;
+ }
+ .dot7{
+  margin-top: 5rem!important;
+ }
+  .col-text-main{
+    max-width: 800px;
+    text-align: center;
+ }
+ .mockup{
+  margin-top: 5rem!important;
+ }
+ .d-clinics7{
+  margin-top: 1rem!important;
+ }
+}
+
+.mockup{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+.text-main{
+    font-size: 45px;
+    font-weight: bold;
+    color: #272D4E;
+}
+
+.text{
+    color: #94A2B3;
+    font-size: 15px;
+}
+
+.main-button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #34bdbd;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .main-button:hover {
+    background-color: #2893c0;
+  }
+  
+  /* Under img */
+
+  .d-clinics7{
+    position: absolute;
+    transform: translate(50%, -270%);
+    z-index: 3;
+  }
+
+  .d-clinics77{
+    position: absolute;
+    transform: translate(150%, -110%);
+    z-index: 3;
+  }
+
+  .dot77{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    transform: translate(-200%, -10%);
+    z-index: 1; 
+  }
+
+  .dot7{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    transform: translate(-210%, 160%);
+    z-index: 1; 
+  }

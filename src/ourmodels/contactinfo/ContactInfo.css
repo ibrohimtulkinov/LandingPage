@@ -1,0 +1,48 @@
+.contact-info-container {
+    background-color: #eaeae4; /* Adjust the background color as needed */
+    padding: 120px 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+
+  @media (min-width:100px) and (max-width:701px) {
+    .contact-info-container {
+      margin-top: 2rem;
+    }
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Spacing between items */
+  }
+  
+  .contact-info-icon {
+    margin-right: 10px;
+  }
+  
+  .contact-info-icon svg {
+    fill: #000; /* Icon color */
+  }
+  
+  .contact-info-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-info-heading {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .contact-info-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .contact-info-text a {
+    text-decoration: none;
+    color: inherit; /* Match the link color to the text color */
+  }

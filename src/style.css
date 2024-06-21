@@ -1,0 +1,6 @@
+.needed-bg{
+  background: url("../src/assets/bg_gradient.png") no-repeat center top;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}

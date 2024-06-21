@@ -1,0 +1,163 @@
+.work-div{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    display: flex;
+    gap: 50px;
+}
+
+@media (min-width:100px) and (max-width:1000px) {
+    .big-circle{
+      display: none!important;
+    }
+    .little-circle{
+        display: none!important;
+    }
+    .group7{
+        display: none!important;
+    }
+    .medium-circle{
+        display: none!important;
+    } 
+    .little2-circle{
+        display: none!important;
+    } 
+    .group8{
+        display: none!important;
+      }
+    .cardofwork{
+        text-align: center;
+        margin-top: 5rem;
+        margin-left: 20rem;
+        width: 100%!important;
+    }
+    .workscard{
+        width: 100%!important;
+    }
+    .work-div{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img-clone2{
+        margin-top: 3rem!important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .work-div-flex{
+        display: block!important;
+    }
+    .cardofwork{
+        margin-top: 0rem!important;
+        margin-left: 0rem!important;
+    }
+    .img-clone{
+        margin-bottom: 1rem!important;
+    }
+    .big{
+        width: 300px!important;
+        height: 300px!important;
+        margin-left: 10rem;
+        margin-top: 5rem;
+    }
+  
+}
+
+.works-background{
+  background: url("../../assets/Rectangle 235.png") no-repeat center top;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.works-img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.workscard{
+    margin-top: 5rem;
+    width: 28%;
+}
+
+.work-div-conteiner{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.work-div-flex{
+    display: flex;
+    gap: 50px;
+}
+
+.cardofwork{
+    margin-top: 5rem;
+    margin-left: 20rem;
+    width: 28%;
+}
+
+.work2-img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+
+ .big-circle{
+    z-index: 2;
+    position: absolute;
+    transform: translate(-100%, -200%);
+    width: 150px;
+    height: 150px;
+} 
+
+.little-circle{
+    position: absolute;
+    transform: translate(-110%, -200%);
+    width: 150px;
+    height: 150px;
+} 
+
+.group7{
+  position: absolute;
+  width: 160px;
+  height: auto;
+  transform: translate(-270%, 90%);
+  z-index: 1; 
+}
+
+
+
+.medium-circle{
+    z-index: 2;
+    position: absolute;
+    transform: translate(100%, -270%);
+    width: 150px;
+    height: 150px;
+} 
+
+.little2-circle{
+    position: absolute;
+    z-index: 4;
+    transform: translate(30%, -280%);
+    width: 150px;
+    height: 150px;
+} 
+
+.group8{
+  position: absolute;
+  width: 300px;
+  height: auto;
+  transform: translate(-50%, 130%);
+  z-index: 2; 
+}

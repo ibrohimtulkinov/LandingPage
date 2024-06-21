@@ -1,0 +1,22 @@
+.models-title{
+  font-size: 28px;
+  color: #2893c0;
+  font-weight: bold;
+}
+
+.models-description{
+  font-size: 15px;
+}
+
+.model-img{
+    width: 60px;
+}
+
+@media (min-width: 100px) and (max-width:701px) {
+  .model-img {
+    width: 40px;
+  }
+  .models-title{
+    font-size: 21px;
+  }
+}
