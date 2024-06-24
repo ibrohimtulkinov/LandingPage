@@ -9,6 +9,22 @@
     gap: 50px;
 }
 
+@media (min-width:100px) and (max-width:540px){
+  .dot7{
+    width: 240px!important;
+    transform: translate(-160%, 83%)!important;
+  }
+  .dot77{
+    width: 100px!important;
+  }
+  .screenshot-77{
+    width: 150px!important;
+  }
+  .screenshot-7{
+    width: 150px!important;
+  }
+}
+
 @media (min-width:100px) and (max-width:1130px){
   .main-page{
     display: block;

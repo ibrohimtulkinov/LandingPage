@@ -25,10 +25,10 @@ export default function MainPage() {
                 <div className="">
                   <img src={Mockup} alt="mockup" className="mockup"/>
                   <div className="d-clinics7">
-                    <img src={img} alt="image"  style={{width: "200px", height: "auto", borderRadius: "20px"}}/>
+                    <img src={img} alt="image" className="screenshot-7"  style={{width: "200px", height: "auto", borderRadius: "20px"}}/>
                   </div>
                   <div className="d-clinics77">
-                   <img src={img1} alt="image" style={{width: "200px", height: "auto", borderRadius: "20px"}} />
+                   <img src={img1} className="screenshot-77" alt="image" style={{width: "200px", height: "auto", borderRadius: "20px"}} />
                  </div>
                    <img src={dot2} className="dot77" alt="image"/>
                    <img src={dot} className="dot7" alt="image"/>
